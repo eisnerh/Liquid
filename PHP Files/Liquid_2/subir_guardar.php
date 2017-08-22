@@ -1,5 +1,5 @@
 <?php
-
+$_SERVER['PHP_SELF'];
 //Como el elemento es un arreglos utilizamos foreach para extraer todos los valores
 foreach($_FILES["archivo"]['tmp_name'] as $key => $tmp_name)
 {

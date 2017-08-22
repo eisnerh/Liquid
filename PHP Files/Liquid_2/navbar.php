@@ -9,11 +9,11 @@
 											<span class="icon-bar"></span>
 											<span class="icon-bar"></span>
 											</button>
-											<a class="navbar-brand" href="#"><img src="images/Logo.png" width="80" height="30" alt="" class="d-inline-block align-top"></a>
+											<a class="navbar-brand" href="index.php"><img src="images/Logo.png" width="80" height="30" alt="" class="d-inline-block align-top"></a>
 									</div>
 									<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 											<ul class="nav navbar-nav">
-													<li class="active"><a href="#">Login<span class="sr-only">(current)</span></a></li>
+													<li class="active"><a href="login.php">Login<span class="sr-only">(current)</span></a></li>
 													<li><a href="importarExcel.php">Subir Archivos</a></li>
 													<li class="dropdown">
 															<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Acciones <span class="caret"></span></a>
@@ -28,7 +28,7 @@
 											</ul>
 											
 											<ul class="nav navbar-nav navbar-right">
-													<li><a href="#">Link</a></li>
+													<li><a href="InsertarDatos.php">Insertar Datos</a></li>
 											</ul>
 									</div>
 							</div>
