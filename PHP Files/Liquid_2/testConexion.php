@@ -37,4 +37,7 @@ if (mysqli_num_rows($result) > 0) {
     // echo no users JSON
     echo json_encode($response);
 }
+require_once 'FechaHoy.php';
+
+echo getDia();
 ?>

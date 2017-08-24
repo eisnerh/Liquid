@@ -3,9 +3,11 @@
 					<thead>
 						<tr>
 							<th>ID</th>
-							<th>n_Guia</th>
-							<th>chofer</th>
-							<th>camion</th>
+							<th>N Guia</th>
+							<th>Chofer</th>
+							<th>Camion</th>
+							<th>Fecha</th>
+							<th>Viaje</th>
 							<th></th>
 							<th></th>
 						</tr>
@@ -18,7 +20,9 @@
 								<td><?php echo $row['id_inicio']; ?></td>
 								<td><?php echo $row['n_Guia']; ?></td>
 								<td><?php echo $row['chofer']; ?></td>
-								<td><?php echo $row['camion']; ?></td>								
+								<td><?php echo $row['camion']; ?></td>
+								<td><?php echo $row['fecha']; ?></td>
+								<td><?php echo $row['viaje']; ?></td>
 							</tr>
 						<?php } ?>
 					</tbody>
